@@ -1,0 +1,29 @@
+{
+  "name": "fcc-js-technical-documentation",
+  "version": "1.0.0",
+  "description": "Responsive JS Technical Documentation",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "keywords": [
+    "HTML5",
+    "CSS3",
+    "(Grid",
+    "template",
+    "areas",
+    "Flex",
+    "transitions",
+    "etc.)",
+    "SASS",
+    "(mixins",
+    "etc.)",
+    "Vanilla",
+    "JS"
+  ],
+  "author": "Ralitsa Voronevska",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
