@@ -18,7 +18,7 @@
 # Built with:
 
 - HTML5, CSS3/SASS
-- [Google Fonts](https://fonts.google.com/)
+- [Google Fonts: Varela Round](https://fonts.google.com/specimen/Varela+Round)
 
 # Tools used:
 
