@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 :root {
   --background-primary: #000;
   --background-color: #262626;
@@ -58,10 +59,10 @@ body {
       filter: invert(93%) sepia(93%) saturate(1051%) hue-rotate(334deg) brightness(101%) contrast(101%); }
     .sidenav #main-title .text-next-to-logo {
       color: var(--text-primary);
-      font-weight: 400;
-      font-size: 24px;
       margin-left: 0.5rem;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      line-height: normal;
+      font-size: 20px; }
 
 a {
   cursor: pointer; }
@@ -72,11 +73,11 @@ a {
   padding: 20px 30px 150px;
   background-color: var(--background-primary);
   color: var(--text-gray); }
-  .main header {
+  .main h2 {
     padding: 24px;
     font-weight: 400;
-    font-size: 27px; }
-    .main header:hover {
+    font-size: 24px; }
+    .main h2:hover {
       color: var(--text-primary); }
 
 p,
@@ -93,7 +94,7 @@ li,
   font-family: var(--font-code);
   background-color: var(--border-dark);
   border-radius: 3px;
-  margin-left: 40px;
+  margin-left: 24px;
   margin-bottom: 1rem;
   font-size: 14px;
   padding: 5px 5px; }
@@ -157,9 +158,7 @@ li,
     display: inline-block;
     flex-shrink: 0;
     height: var(--size);
-    -webkit-mask-position: center;
     mask-position: center;
-    -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
     vertical-align: middle;
     width: var(--size); }
@@ -175,6 +174,12 @@ li,
       width: 1rem; }
       .code-example .icon.copy-icon:hover {
         opacity: 0.6; }
+  .code-example pre {
+    margin: 0.25rem 0.5rem 0.25rem 0;
+    white-space: nowrap; }
+  .code-example code {
+    margin-left: 15px;
+    color: var(--color-yellow-l-25); }
 
 .button,
 button {
