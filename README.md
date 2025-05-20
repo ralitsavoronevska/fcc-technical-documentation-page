@@ -4,16 +4,16 @@
 
 # Desktop preview:
 
-<img src="dist/img/fcc-js-tech-doc_preview.png" />
-<img src="dist/img/fcc-js-tech-doc_with_alert_preview.png" />
+<img src="dist/img/fcc-js-tech-doc-desktop-preview.png" />
+<img src="dist/img/fcc-js-tech-doc-desktop-with-alert-preview.png" />
 
 # Tablet preview:
 
-<img src="dist/img/fcc-js-tech-doc_tablet_preview.png" />
+<img src="dist/img/fcc-js-tech-doc-tablet-preview.png" />
 
 # Mobile preview:
 
-<img src="dist/img/fcc-js-tech-doc_mobile_preview.png"/>
+<img src="dist/img/fcc-js-tech-doc-mobile-preview.png"/>
 
 # Built with:
 
@@ -27,11 +27,11 @@
 
 # W3C HTML Validator
 
-<img src="dist/img/fcc-js-tech-doc_w3c_html_validator.png" />
+<img src="dist/img/fcc-js-tech-doc-w3c-html-validator.png" />
 
 # W3C CSS Validator
 
-<img src="dist/img/fcc-js-tech-doc_w3c_css_validator.png" />
+<img src="dist/img/fcc-js-tech-doc-w3c-css-validator.png" />
 
 # FreeCodeCamp:
 
