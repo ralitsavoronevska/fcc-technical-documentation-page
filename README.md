@@ -25,10 +25,6 @@
 - [W3C HTML Validator](https://validator.w3.org/)
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-# W3C HTML Validator
-
-<img src="dist/img/fcc-js-tech-doc-w3c-html-validator.png" />
-
 # W3C CSS Validator
 
 <img src="dist/img/fcc-js-tech-doc-w3c-css-validator.png" />
