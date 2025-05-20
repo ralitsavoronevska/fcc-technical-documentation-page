@@ -1,0 +1,22 @@
+{
+  "name": "fcc-js-technical-documentation",
+  "version": "1.0.0",
+  "description": "Responsive JS Technical Documentation",
+  "main": "index.js",
+  "repo": "http://ralitsavoronevska.github.io/fcc-tech-doc-page",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [
+    "HTML5",
+    "CSS3",
+    "SASS",
+    "Vanilla JS"
+  ],
+  "author": "Ralitsa Voronevska",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
