@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
-
 :root {
   --background-primary: #000;
   --background-color: #262626;
@@ -10,7 +8,7 @@
   --text-light-gray: #4d4d4d;
   --text-invert: #1b1b1b;
   --color-yellow: #ffe32d;
-  --color-yellow-l-25: #fff4ac; // lighten(#ffe32d, 25%);
+  --color-yellow-25-l: #fff4ac; // lighten(#ffe32d, 25%);
   --link-color: #719af4;
   --border-primary: darkgray;
   --border-color: #444;
@@ -26,9 +24,7 @@
 }
 
 body {
-  font-family: "Varela Round", sans-serif !important;
-  font-weight: 400;
-  font-style: normal;
+  font-family: sans-serif;
   background-color: var(--background-color);
   color: var(--text-primary);
 }
@@ -65,10 +61,10 @@ body {
     }
     .text-next-to-logo {
       color: var(--text-primary);
+      font-weight: 400;
+      font-size: 24px;
       margin-left: 0.5rem;
       margin-bottom: 0;
-      line-height: normal;
-      font-size: 20px;
     }
   }
 }
@@ -83,10 +79,10 @@ a {
   padding: 20px 30px 150px;
   background-color: var(--background-primary);
   color: var(--text-gray);
-  h2 {
+  header {
     padding: 24px;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 27px;
     &:hover {
       color: var(--text-primary);
     }
@@ -109,7 +105,7 @@ li,
   font-family: var(--font-code);
   background-color: var(--border-dark);
   border-radius: 3px;
-  margin-left: 24px;
+  margin-left: 40px;
   margin-bottom: 1rem;
   font-size: 14px;
   padding: 5px 5px;
@@ -117,7 +113,7 @@ li,
     line-height: 1;
     margin-bottom: 0.5rem;
     margin-top: 0.75rem;
-    color: var(--color-yellow-l-25);
+    color: var(--color-yellow-25-l);
   }
 }
 
@@ -183,7 +179,9 @@ li,
     display: inline-block;
     flex-shrink: 0;
     height: var(--size);
+    -webkit-mask-position: center;
     mask-position: center;
+    -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat;
     vertical-align: middle;
     width: var(--size);
@@ -201,14 +199,6 @@ li,
         opacity: 0.6;
       }
     }
-  }
-  pre {
-    margin: 0.25rem 0.5rem 0.25rem 0;
-    white-space: nowrap;
-  }
-  code {
-    margin-left: 15px;
-    color: var(--color-yellow-l-25);
   }
 }
 
