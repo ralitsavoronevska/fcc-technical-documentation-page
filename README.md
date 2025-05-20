@@ -1,4 +1,4 @@
-# FCC: Build a Survey Form
+# FCC: Build a Technical Documentation Page
 
 [Codepen](https://codepen.io/ralitsavoronevska/pen/zgvWKQ) | [Live Preview](https://ralitsavoronevska.github.io/fcc-js-tech-doc/)
 
