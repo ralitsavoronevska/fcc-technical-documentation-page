@@ -8,7 +8,7 @@
   --text-light-gray: #4d4d4d;
   --text-invert: #1b1b1b;
   --color-yellow: #ffe32d;
-  --color-yellow-25-l: #fff4ac; // lighten(#ffe32d, 25%);
+  --color-yellow-l-25: #fff4ac; // lighten(#ffe32d, 25%);
   --link-color: #719af4;
   --border-primary: darkgray;
   --border-color: #444;
@@ -113,7 +113,7 @@ li,
     line-height: 1;
     margin-bottom: 0.5rem;
     margin-top: 0.75rem;
-    color: var(--color-yellow-25-l);
+    color: var(--color-yellow-l-25);
   }
 }
 
