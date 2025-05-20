@@ -6,7 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta
       name="description"
-      content="This is my FCC: JS Technical Documentation Page">
+      content="This is my FCC: Technical Documentation Page">
     <meta name="web_author" content="Ralitsa Voronevska">
     <meta name="theme-color" content="#ffe32d">
     <title>FCC: JS Technical Documentation</title>
@@ -19,8 +19,8 @@
   <body>
     <nav class="sidenav" id="navbar">
       <header id="main-title" class="d-flex">
-        <span class="logo"></span
-        ><h1 class="d-flex align-items-end text-next-to-logo"
+        <span class="logo"></span>
+        <h1 class="d-flex align-items-end text-next-to-logo"
           >Documentation</h1>
       </header>
       <a href="#Introduction" class="nav-link">Introduction</a>
@@ -46,8 +46,8 @@
     <main id="main-doc">
       <div class="main">
         <section class="main-section" id="Introduction">
-          <h2>Introduction</h2>
-          <div>
+          <header>Introduction</header>
+          <article>
             <p>
               JavaScript is a cross-platform, object-oriented scripting
               language. It is a small and lightweight language. Inside a host
@@ -82,11 +82,11 @@
                 </li>
               </ul>
             </div>
-          </div>
+          </article>
         </section>
         <section class="main-section" id="What_you_should_already_know">
-          <h2>What you should already know</h2>
-          <div>
+          <header>What you should already know</header>
+          <article>
             <p>This guide assumes you have the following basic background:</p>
             <div>
               <ul>
@@ -104,11 +104,11 @@
                 </li>
               </ul>
             </div>
-          </div>
+          </article>
         </section>
         <section class="main-section" id="Javascript_and_Java">
-          <h2>Javascript and Java</h2>
-          <div>
+          <header>Javascript and Java</header>
+          <article>
             <p>
               JavaScript and Java are similar in some ways but fundamentally
               different in some others. The JavaScript language resembles Java
@@ -137,11 +137,11 @@
               Variables, parameters, and function return types are not
               explicitly typed.
             </p>
-          </div>
+          </article>
         </section>
         <section class="main-section" id="Hello_World">
-          <h2>Hello World</h2>
-          <div>
+          <header>Hello World</header>
+          <article>
             <p>
               To get started with writing JavaScript, open the Scratchpad and
               write your first "Hello world" JavaScript code:
@@ -162,11 +162,11 @@
               Select the code in the pad and hit Ctrl+R to watch it unfold in
               your browser!
             </p>
-          </div>
+          </article>
         </section>
         <section class="main-section" id="Variables">
-          <h2>Variables</h2>
-          <div>
+          <header>Variables</header>
+          <article>
             <p>
               You use variables as symbolic names for values in your
               application. The names of variables, called identifiers, conform
@@ -185,11 +185,11 @@
               characters in identifiers. Some examples of legal names are
               Number_hits, temp99, and _name.
             </p>
-          </div>
+          </article>
         </section>
         <section class="main-section" id="Declaring_Variables">
-          <h2>Declaring Variables</h2>
-          <div>
+          <header>Declaring Variables</header>
+          <article>
             <p>
               You can declare a variable in three ways: With the keyword var.
               For example,
@@ -235,11 +235,11 @@
               This syntax can be used to declare a block scope local variable.
               See Variable scope below.
             </p>
-          </div>
+          </article>
         </section>
         <section class="main-section" id="Variable_Scope">
-          <h2>Variable Scope</h2>
-          <div>
+          <header>Variable Scope</header>
+          <article>
             <p>
               When you declare a variable outside of any function, it is called
               a global variable, because it is available to any other code in
@@ -274,17 +274,15 @@
                 <button type="button" class="icon copy-icon"></button>
               </div>
               <code>
-                <span
-                  >if (true) { let y = 5; } console.log(y); // ReferenceError: y
-                  is not defined</span
-                >
+                <span>if (true) { let y = 5; } console.log(y); // ReferenceError: y
+                  is not defined</span>
               </code>
             </div>
-          </div>
+          </article>
         </section>
         <section class="main-section" id="Global_Variables">
-          <h2>Global Variables</h2>
-          <div>
+          <header>Global Variables</header>
+          <article>
             <p>
               Global variables are in fact properties of the global object. In
               web pages the global object is window, so you can set and access
@@ -297,11 +295,11 @@
               phoneNumber is declared in a document, you can refer to this
               variable from an iframe as parent.phoneNumber.
             </p>
-          </div>
+          </article>
         </section>
         <section class="main-section" id="Constants">
-          <h2>Constants</h2>
-          <div>
+          <header>Constants</header>
+          <article>
             <p>
               You can create a read-only, named constant with the const keyword.
               The syntax of a constant identifier is the same as for a variable
@@ -359,11 +357,11 @@
               </code>
             </pre>
             </div>
-          </div>
+          </article>
         </section>
         <section class="main-section" id="Data_types">
-          <h2>Data types</h2>
-          <div>
+          <header>Data types</header>
+          <article>
             <p>The latest ECMAScript standard defines seven data types:</p>
             <div>
               <ul>
@@ -397,11 +395,11 @@
               language. You can think of objects as named containers for values,
               and functions as procedures that your application can perform.
             </p>
-          </div>
+          </article>
         </section>
         <section class="main-section" id="if...else_statements">
-          <h2>if...else statements</h2>
-          <div>
+          <header>if...else statements</header>
+          <article>
             <p>
               Use the if statement to execute a statement if a logical condition
               is true. Use the optional else clause to execute a statement if
@@ -491,11 +489,11 @@
                 <span>if ((x = y)) { /* statements here */ }</span>
               </code>
             </div>
-          </div>
+          </article>
         </section>
         <section class="main-section" id="while_statements">
-          <h2>while statements</h2>
-          <div>
+          <header>while statements</header>
+          <article>
             <p>
               A while statement executes its statements as long as a specified
               condition evaluates to true. A while statement looks as follows:
@@ -554,11 +552,11 @@
               After completing the third pass, the condition n &lt; 3 is no
               longer true, so the loop terminates.
             </p>
-          </div>
+          </article>
         </section>
         <section class="main-section" id="Function_Declarations">
-          <h2>Function Declarations</h2>
-          <div>
+          <header>Function Declarations</header>
+          <article>
             <p>
               A function definition (also called a function declaration, or
               function statement) consists of the function keyword, followed by:
@@ -610,17 +608,17 @@
               changes the value of the parameter, this change is not reflected
               globally or in the calling function.
             </p>
-          </div>
+          </article>
         </section>
         <section class="main-section" id="Reference">
-          <h2>Reference</h2>
-          <div>
+          <header>Reference</header>
+          <article>
             <p>
               All the documentation in this page is taken from
               <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
                 >MDN</a>
             </p>
-          </div>
+          </article>
         </section>
       </div>
     </main>
@@ -628,8 +626,7 @@
       <p>
         <a
           href="http://ralitsavoronevska.github.io/modern-portfolio/"
-          target="_blank"
-          >&#60;Ralitsa Voronevska&#47;&#62;</a>&copy; 2025
+          target="_blank">&#60;Ralitsa Voronevska&#47;&#62;</a>&copy; 2025
       </p>
     </footer>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
@@ -641,4 +638,4 @@
     ></script>
     <script defer src="js/script.js"></script>
   </body>
-</html>
+ </html>
