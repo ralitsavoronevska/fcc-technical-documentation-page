@@ -1,6 +1,6 @@
 # FCC: Build a Survey Form
 
-[Codepen](https://codepen.io/ralitsavoronevska/pen/zgvWKQ) | [Live Preview](http://ralitsavoronevska.github.io/fcc-tech-doc-page)
+[Codepen](https://codepen.io/ralitsavoronevska/pen/zgvWKQ) | [Live Preview](https://ralitsavoronevska.github.io/fcc-js-tech-doc/)
 
 # Desktop preview:
 
