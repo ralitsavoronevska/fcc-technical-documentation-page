@@ -67,21 +67,27 @@
           </svg>
         </button>
       </header>
-      <a href="#Introduction" class="nav-link">Introduction</a>
-      <a href="#What_you_should_already_know" class="nav-link">What you should already know</a>
-      <a href="#Javascript_and_Java" class="nav-link">Javascript and Java</a>
-      <a href="#Hello_World" class="nav-link">Hello World</a>
-      <a href="#Variables" class="nav-link">Variables</a>
-      <a href="#Declaring_Variables" class="nav-link">Declaring Variables</a>
-      <a href="#Variable_Scope" class="nav-link">Variable Scope</a>
-      <a href="#Global_Variables" class="nav-link">Global Variables</a>
-      <a href="#Constants" class="nav-link">Constants</a>
-      <a href="#Data_types" class="nav-link">Data types</a>
-      <a href="#if...else_statements" class="nav-link">if...else statements</a>
-      <a href="#while_statements" class="nav-link">while statements</a>
-      <a href="#Function_Declarations" class="nav-link">Function Declarations</a>
-      <a href="#Reference" class="nav-link">Reference</a>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#What_you_should_already_know">What you should already know</a></li>
+        <li><a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a></li>
+        <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
+        <li><a class="nav-link" href="#Variables">Variables</a></li>
+        <li><a class="nav-link" href="#Declaring_variables">Declaring variables</a></li>
+        <li><a class="nav-link" href="#Variable_scope">Variable scope</a></li>
+        <li><a class="nav-link" href="#Global_variables">Global variables</a></li>
+        <li><a class="nav-link" href="#Constants">Constants</a></li>
+        <li><a class="nav-link" href="#Data_types">Data types</a></li>
+        <li><a class="nav-link" href="#if...else_statement">if...else statement</a></li>
+        <li><a class="nav-link" href="#while_statement">while statement</a></li>
+        <li><a class="nav-link" href="#Function_declarations">Function declarations</a></li>
+        <li><a class="nav-link" href="#Reference">Reference</a></li>
+      </ul>
     </nav>
+
+    <div class="scrollTop">
+      <img src="img/svgs/home-dark.svg" id="home-btn" alt="Home button">
+    </div>
 
     <main id="main-doc">
       <div class="main">
@@ -146,8 +152,8 @@
             </div>
           </article>
         </section>
-        <section class="main-section" id="Javascript_and_Java">
-          <header>Javascript and Java</header>
+        <section class="main-section" id="JavaScript_and_Java">
+          <header>JavaScript and Java</header>
           <article>
             <p>
               JavaScript and Java are similar in some ways but fundamentally
@@ -179,14 +185,14 @@
             </p>
           </article>
         </section>
-        <section class="main-section" id="Hello_World">
+        <section class="main-section" id="Hello_world">
           <header>Hello World</header>
           <article>
             <p>
               To get started with writing JavaScript, open the Scratchpad and
               write your first "Hello world" JavaScript code:
             </p>
-            <div class="box code-example">
+            <div class="box code-example position-relative">
               <div class="example-header">
                 <span class="language-name">js</span>
                 <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
@@ -227,14 +233,14 @@
             </p>
           </article>
         </section>
-        <section class="main-section" id="Declaring_Variables">
-          <header>Declaring Variables</header>
+        <section class="main-section" id="Declaring_variables">
+          <header>Declaring variables</header>
           <article>
             <p>
               You can declare a variable in three ways: With the keyword var.
               For example,
             </p>
-            <div class="box code-example">
+            <div class="box code-example position-relative">
               <div class="example-header">
                 <span class="language-name">js</span>
                 <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
@@ -248,7 +254,7 @@
               variables.
             </p>
             <p>By simply assigning it a value. For example,</p>
-            <div class="box code-example">
+            <div class="box code-example position-relative">
               <div class="example-header">
                 <span class="language-name">js</span>
                 <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
@@ -262,7 +268,7 @@
               JavaScript warning. You shouldn't use this variant.
             </p>
             <p>With the keyword let. For example,</p>
-            <div class="box code-example">
+            <div class="box code-example position-relative">
               <div class="example-header">
                 <span class="language-name">js</span>
                 <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
@@ -277,8 +283,8 @@
             </p>
           </article>
         </section>
-        <section class="main-section" id="Variable_Scope">
-          <header>Variable Scope</header>
+        <section class="main-section" id="Variable_scope">
+          <header>Variable scope</header>
           <article>
             <p>
               When you declare a variable outside of any function, it is called
@@ -295,7 +301,7 @@
               the function (or global context) within which x is declared, not
               the block, which in this case is an if statement.
             </p>
-            <div class="box code-example">
+            <div class="box code-example position-relative">
               <div class="example-header">
                 <span class="language-name">js</span>
                 <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
@@ -308,7 +314,7 @@
               This behavior changes, when using the let declaration introduced
               in ECMAScript 2015.
             </p>
-            <div class="box code-example">
+            <div class="box code-example position-relative">
               <div class="example-header">
                 <span class="language-name">js</span>
                 <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
@@ -320,8 +326,8 @@
             </div>
           </article>
         </section>
-        <section class="main-section" id="Global_Variables">
-          <header>Global Variables</header>
+        <section class="main-section" id="Global_variables">
+          <header>Global variables</header>
           <article>
             <p>
               Global variables are in fact properties of the global object. In
@@ -346,7 +352,7 @@
               identifier: it must start with a letter, underscore or dollar sign
               and can contain alphabetic, numeric, or underscore characters.
             </p>
-            <div class="box code-example">
+            <div class="box code-example position-relative">
               <div class="example-header">
                 <span class="language-name">js</span>
                 <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
@@ -369,7 +375,7 @@
               You cannot declare a constant with the same name as a function or
               variable in the same scope. For example:
             </p>
-            <div class="box code-example">
+            <div class="box code-example position-relative">
               <div class="example-header">
                 <span class="language-name">js</span>
                 <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
@@ -385,7 +391,7 @@
               However, object attributes are not protected, so the following
               statement is executed without problems.
             </p>
-            <div class="box code-example">
+            <div class="box code-example position-relative">
               <div class="example-header">
                 <span class="language-name">js</span>
                 <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
@@ -437,15 +443,15 @@
             </p>
           </article>
         </section>
-        <section class="main-section" id="if...else_statements">
-          <header>if...else statements</header>
+        <section class="main-section" id="if...else_statement">
+          <header>if...else statement</header>
           <article>
             <p>
               Use the if statement to execute a statement if a logical condition
               is true. Use the optional else clause to execute a statement if
               the condition is false. An if statement looks as follows:
             </p>
-            <div class="box code-example">
+            <div class="box code-example position-relative">
               <div class="example-header">
                 <span class="language-name">js</span>
                 <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
@@ -467,7 +473,7 @@
               You may also compound the statements using else if to have
               multiple conditions tested in sequence, as follows:
             </p>
-            <div class="box code-example">
+            <div class="box code-example position-relative">
               <div class="example-header">
                 <span class="language-name">js</span>
                 <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
@@ -488,7 +494,7 @@
               . In general, it's good practice to always use block statements,
               especially when nesting if statements:
             </p>
-            <div class="box code-example">
+            <div class="box code-example position-relative">
               <div class="example-header">
                 <span class="language-name">js</span>
                 <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
@@ -506,7 +512,7 @@
               when glancing over the code. For example, do not use the following
               code:
             </p>
-            <div class="box code-example">
+            <div class="box code-example position-relative">
               <div class="example-header">
                 <span class="language-name">js</span>
                 <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
@@ -520,7 +526,7 @@
               common practice is to put additional parentheses around the
               assignment. For example:
             </p>
-            <div class="box code-example">
+            <div class="box code-example position-relative">
               <div class="example-header">
                 <span class="language-name">js</span>
                 <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
@@ -531,14 +537,14 @@
             </div>
           </article>
         </section>
-        <section class="main-section" id="while_statements">
-          <header>while statements</header>
+        <section class="main-section" id="while_statement">
+          <header>while statement</header>
           <article>
             <p>
               A while statement executes its statements as long as a specified
               condition evaluates to true. A while statement looks as follows:
             </p>
-            <div class="box code-example">
+            <div class="box code-example position-relative">
               <div class="example-header">
                 <span class="language-name">js</span>
                 <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
@@ -566,7 +572,7 @@
             <p>
               The following while loop iterates as long as n is less than three:
             </p>
-            <div class="box code-example">
+            <div class="box code-example position-relative">
               <div class="example-header">
                 <span class="language-name">js</span>
                 <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
@@ -594,8 +600,8 @@
             </p>
           </article>
         </section>
-        <section class="main-section" id="Function_Declarations">
-          <header>Function Declarations</header>
+        <section class="main-section" id="Function_declarations">
+          <header>Function declarations</header>
           <article>
             <p>
               A function definition (also called a function declaration, or
@@ -618,7 +624,7 @@
               For example, the following code defines a simple function named
               square:
             </p>
-            <div class="box code-example">
+            <div class="box code-example position-relative">
               <div class="example-header">
                 <span class="language-name">js</span>
                 <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
@@ -633,7 +639,7 @@
               argument of the function (that is, number) multiplied by itself.
               The return statement specifies the value returned by the function.
             </p>
-            <div class="box code-example">
+            <div class="box code-example position-relative">
               <div class="example-header">
                 <span class="language-name">js</span>
                 <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
@@ -656,20 +662,29 @@
             <p>
               All the documentation in this page is taken from
               <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
-                >MDN</a>
+                >MDN</a>.
             </p>
           </article>
         </section>
       </div>
     </main>
-    <footer>
+    <footer class="center">
       <p class="m-0">
-        <a href="http://ralitsavoronevska.github.io/modern-portfolio/"
-          target="_blank">&#60;Ralitsa Voronevska&#47;&#62;</a>
+        <a href="http://ralitsataylor.github.io/modern-portfolio/"
+          target="_blank">&#60;Ralitsa Taylor&#47;&#62;</a>
           <span class="mt-0">&copy; 2025</span>
       </p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 400, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 1000 // values from 0 to 3000, with step 50ms
+      });
+    </script>
+    <script defer src="js/scroll-to-top.js"></script>
     <script defer src="js/toggle-theme.js"></script>
     <script defer src="js/copy-to-clipboard.js"></script>
   </body>
