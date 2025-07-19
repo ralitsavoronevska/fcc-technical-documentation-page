@@ -32,7 +32,8 @@
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
     <!-- Main stylesheets: Bootstrap and my own styles -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/css/bootstrap.min.css" fetchpriority="high">
+    <link rel="stylesheet" href="purged-bootstrap.min.css" fetchpriority="high">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" fetchpriority="high">
     <link rel="stylesheet" href="css/styles.css">
 
     <!-- noscript fallbacks -->
@@ -68,31 +69,31 @@
         </button>
       </header>
       <ul>
-        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
-        <li><a class="nav-link" href="#What_you_should_already_know">What you should already know</a></li>
-        <li><a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a></li>
-        <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
-        <li><a class="nav-link" href="#Variables">Variables</a></li>
-        <li><a class="nav-link" href="#Declaring_variables">Declaring variables</a></li>
-        <li><a class="nav-link" href="#Variable_scope">Variable scope</a></li>
-        <li><a class="nav-link" href="#Global_variables">Global variables</a></li>
-        <li><a class="nav-link" href="#Constants">Constants</a></li>
-        <li><a class="nav-link" href="#Data_types">Data types</a></li>
-        <li><a class="nav-link" href="#if...else_statement">if...else statement</a></li>
-        <li><a class="nav-link" href="#while_statement">while statement</a></li>
-        <li><a class="nav-link" href="#Function_declarations">Function declarations</a></li>
-        <li><a class="nav-link" href="#Reference">Reference</a></li>
+        <li class="position-relative w-100"><a class="d-block nav-link" href="#Introduction">Introduction</a></li>
+        <li class="position-relative w-100"><a class="d-block nav-link" href="#What_you_should_already_know">What you should already know</a></li>
+        <li class="position-relative w-100"><a class="d-block nav-link" href="#JavaScript_and_Java">JavaScript and Java</a></li>
+        <li class="position-relative w-100"><a class="d-block nav-link" href="#Hello_world">Hello world</a></li>
+        <li class="position-relative w-100"><a class="d-block nav-link" href="#Variables">Variables</a></li>
+        <li class="position-relative w-100"><a class="d-block nav-link" href="#Declaring_variables">Declaring variables</a></li>
+        <li class="position-relative w-100"><a class="d-block nav-link" href="#Variable_scope">Variable scope</a></li>
+        <li class="position-relative w-100"><a class="d-block nav-link" href="#Global_variables">Global variables</a></li>
+        <li class="position-relative w-100"><a class="d-block nav-link" href="#Constants">Constants</a></li>
+        <li class="position-relative w-100"><a class="d-block nav-link" href="#Data_types">Data types</a></li>
+        <li class="position-relative w-100"><a class="d-block nav-link" href="#if...else_statement">if...else statement</a></li>
+        <li class="position-relative w-100"><a class="d-block nav-link" href="#while_statement">while statement</a></li>
+        <li class="position-relative w-100"><a class="d-block nav-link" href="#Function_declarations">Function declarations</a></li>
+        <li class="position-relative w-100"><a class="d-block nav-link" href="#Reference">Reference</a></li>
       </ul>
     </nav>
 
-    <div class="scrollTop center">
+    <div class="scrollToTop center">
       <img src="img/svgs/home-dark.svg" id="home-btn" alt="Home button">
     </div>
 
     <main id="main-doc">
       <div class="main">
         <section class="main-section" id="Introduction">
-          <header>Introduction</header>
+          <h2>Introduction</h2>
           <article>
             <p>
               JavaScript is a cross-platform, object-oriented scripting
@@ -131,7 +132,7 @@
           </article>
         </section>
         <section class="main-section" id="What_you_should_already_know">
-          <header>What you should already know</header>
+          <h2>What you should already know</h2>
           <article>
             <p>This guide assumes you have the following basic background:</p>
             <div>
@@ -153,7 +154,7 @@
           </article>
         </section>
         <section class="main-section" id="JavaScript_and_Java">
-          <header>JavaScript and Java</header>
+          <h2>JavaScript and Java</h2>
           <article>
             <p>
               JavaScript and Java are similar in some ways but fundamentally
@@ -186,7 +187,7 @@
           </article>
         </section>
         <section class="main-section" id="Hello_world">
-          <header>Hello World</header>
+          <h2>Hello World</h2>
           <article>
             <p>
               To get started with writing JavaScript, open the Scratchpad and
@@ -211,7 +212,7 @@
           </article>
         </section>
         <section class="main-section" id="Variables">
-          <header>Variables</header>
+          <h2>Variables</h2>
           <article>
             <p>
               You use variables as symbolic names for values in your
@@ -234,7 +235,7 @@
           </article>
         </section>
         <section class="main-section" id="Declaring_variables">
-          <header>Declaring variables</header>
+          <h2>Declaring variables</h2>
           <article>
             <p>
               You can declare a variable in three ways: With the keyword var.
@@ -284,7 +285,7 @@
           </article>
         </section>
         <section class="main-section" id="Variable_scope">
-          <header>Variable scope</header>
+          <h2>Variable scope</h2>
           <article>
             <p>
               When you declare a variable outside of any function, it is called
@@ -327,7 +328,7 @@
           </article>
         </section>
         <section class="main-section" id="Global_variables">
-          <header>Global variables</header>
+          <h2>Global variables</h2>
           <article>
             <p>
               Global variables are in fact properties of the global object. In
@@ -344,7 +345,7 @@
           </article>
         </section>
         <section class="main-section" id="Constants">
-          <header>Constants</header>
+          <h2>Constants</h2>
           <article>
             <p>
               You can create a read-only, named constant with the const keyword.
@@ -406,7 +407,7 @@
           </article>
         </section>
         <section class="main-section" id="Data_types">
-          <header>Data types</header>
+          <h2>Data types</h2>
           <article>
             <p>The latest ECMAScript standard defines seven data types:</p>
             <div>
@@ -444,7 +445,7 @@
           </article>
         </section>
         <section class="main-section" id="if...else_statement">
-          <header>if...else statement</header>
+          <h2>if...else statement</h2>
           <article>
             <p>
               Use the if statement to execute a statement if a logical condition
@@ -538,7 +539,7 @@
           </article>
         </section>
         <section class="main-section" id="while_statement">
-          <header>while statement</header>
+          <h2>while statement</h2>
           <article>
             <p>
               A while statement executes its statements as long as a specified
@@ -601,7 +602,7 @@
           </article>
         </section>
         <section class="main-section" id="Function_declarations">
-          <header>Function declarations</header>
+          <h2>Function declarations</h2>
           <article>
             <p>
               A function definition (also called a function declaration, or
@@ -657,24 +658,23 @@
           </article>
         </section>
         <section class="main-section" id="Reference">
-          <header>Reference</header>
+          <h2>Reference</h2>
           <article>
             <p>
               All the documentation in this page is taken from
-              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
+              <a class="text-decoration-underline" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"
                 >MDN</a>.
             </p>
           </article>
         </section>
+        <footer class="center p-3">
+          <p class="m-0 p-1">
+            <a class="text-decoration-underline" href="http://ralitsataylor.github.io/modern-portfolio/" target="_blank">&lt;Ralitsa Taylor/&gt;</a>
+              <span class="mt-0">© 2025</span>
+          </p>
+        </footer>
       </div>
     </main>
-    <footer class="center">
-      <p class="m-0">
-        <a href="http://ralitsataylor.github.io/modern-portfolio/"
-          target="_blank">&#60;Ralitsa Taylor&#47;&#62;</a>
-          <span class="mt-0">&copy; 2025</span>
-      </p>
-    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
     <script>
