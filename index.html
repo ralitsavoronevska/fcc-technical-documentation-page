@@ -30,6 +30,7 @@
 
     <!-- Preload Google Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.gstatic.com/s/varelaround/v20/w8gdH283Tvk__Lua32TysjIfp8uPLdshZg.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
     <!-- Main stylesheets: Bootstrap and my own styles -->
@@ -39,6 +40,7 @@
     <!-- noscript fallbacks -->
     <noscript>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap">
+      <link rel="stylesheet" href="purged-bootstrap.min.css" fetchpriority="high">
     </noscript>
   </head>
 
@@ -87,7 +89,7 @@
     </nav>
 
     <div class="scrollToTop center">
-      <img src="img/svgs/home-dark.svg" id="home-btn" alt="Home button">
+      <img src="img/svgs/home-dark.svg" width="32" height="32" id="home-btn" alt="Home button">
     </div>
 
     <main id="main-doc">
