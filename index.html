@@ -37,6 +37,39 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preload" href="https://fonts.gstatic.com/s/varelaround/v21/w8gdH283Tvk__Lua32TysjIfp8uP.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <style>
+      /* Critical CSS for LCP paragraphs */
+      @font-face {
+        font-family: 'Varela Round';
+        font-style: normal;
+        font-weight: 400;
+        src: url('https://fonts.gstatic.com/s/varelaround/v21/w8gdH283Tvk__Lua32TysjIfp8uP.woff2') format('woff2');
+        font-display: swap;
+      }
+      /** data-theme="light" styling and variables definitions **/
+      [data-theme="light"] {
+        --text-gray: #4d4d4d;
+      }
+      /** data-theme="dark" styling and variables definitions **/
+      [data-theme="dark"] {
+        --text-gray: #878c99;
+      }
+      .main-section#Introduction article p {
+        font-family: 'Varela Round', Arial, sans-serif;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: var(--text-gray);
+        margin-bottom: 1rem;
+      }
+      @media (max-width: 815px) {
+        #navbar ul li a {
+          padding: .75rem 0 .75rem 1.5625rem;
+        }
+        #navbar ul li a:last-child {
+          border-bottom: none;
+        }
+      }
+    </style>
 
     <!-- Preload copy icon -->
      <link rel="preload" href="img/svgs/copy-icon.svg" as="image" type="image/svg+xml">
