@@ -35,7 +35,7 @@
 
     <!-- Preload Google Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" href="https://fonts.gstatic.com/s/varelaround/v20/w8gdH283Tvk__Lua32TysjIfp8uPLdshZg.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="https://fonts.gstatic.com/s/varelaround/v21/w8gdH283Tvk__Lua32TysjIfp8uP.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
     <!-- Main stylesheets: Bootstrap and my own styles -->
@@ -48,15 +48,15 @@
     </noscript>
   </head>
 
-  <body>
+  <body class="fst-normal fw-normal">
 
     <!-- start of nav and header -->
     <h1 class="d-none">JS Documentation</h1>
     <nav class="sidenav" id="navbar">
       <header id="main-title" class="d-flex">
         <span class="logo"></span>
-        <span class="d-flex align-items-end text-next-to-logo">Documentation</span>
-        <button class="theme-toggle" id="theme-toggle" title="Toggles light & dark" aria-label="auto" aria-live="polite">
+        <span class="d-flex align-items-end text-next-to-logo mb-0">Documentation</span>
+        <button class="theme-toggle" id="theme-toggle" title="Toggles light and dark mode" aria-label="auto" aria-live="polite">
           <svg class="sun-and-moon" aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
             <mask class="moon" id="moon-mask">
               <rect x="0" y="0" width="100%" height="100%" fill="white" />
@@ -76,27 +76,27 @@
           </svg>
         </button>
       </header>
-      <ul>
-        <li class="position-relative w-100"><a class="d-block nav-link" href="#Introduction">Introduction</a></li>
-        <li class="position-relative w-100"><a class="d-block nav-link" href="#What_you_should_already_know">What you should already know</a></li>
-        <li class="position-relative w-100"><a class="d-block nav-link" href="#JavaScript_and_Java">JavaScript and Java</a></li>
-        <li class="position-relative w-100"><a class="d-block nav-link" href="#Hello_world">Hello world</a></li>
-        <li class="position-relative w-100"><a class="d-block nav-link" href="#Variables">Variables</a></li>
-        <li class="position-relative w-100"><a class="d-block nav-link" href="#Declaring_variables">Declaring variables</a></li>
-        <li class="position-relative w-100"><a class="d-block nav-link" href="#Variable_scope">Variable scope</a></li>
-        <li class="position-relative w-100"><a class="d-block nav-link" href="#Global_variables">Global variables</a></li>
-        <li class="position-relative w-100"><a class="d-block nav-link" href="#Constants">Constants</a></li>
-        <li class="position-relative w-100"><a class="d-block nav-link" href="#Data_types">Data types</a></li>
-        <li class="position-relative w-100"><a class="d-block nav-link" href="#if...else_statement">if...else statement</a></li>
-        <li class="position-relative w-100"><a class="d-block nav-link" href="#while_statement">while statement</a></li>
-        <li class="position-relative w-100"><a class="d-block nav-link" href="#Function_declarations">Function declarations</a></li>
-        <li class="position-relative w-100"><a class="d-block nav-link" href="#Reference">Reference</a></li>
+      <ul class="p-0">
+        <li class="position-relative w-100"><a class="d-block nav-link text-decoration-none" href="#Introduction">Introduction</a></li>
+        <li class="position-relative w-100"><a class="d-block nav-link text-decoration-none" href="#What_you_should_already_know">What you should already know</a></li>
+        <li class="position-relative w-100"><a class="d-block nav-link text-decoration-none" href="#JavaScript_and_Java">JavaScript and Java</a></li>
+        <li class="position-relative w-100"><a class="d-block nav-link text-decoration-none" href="#Hello_world">Hello world</a></li>
+        <li class="position-relative w-100"><a class="d-block nav-link text-decoration-none" href="#Variables">Variables</a></li>
+        <li class="position-relative w-100"><a class="d-block nav-link text-decoration-none" href="#Declaring_variables">Declaring variables</a></li>
+        <li class="position-relative w-100"><a class="d-block nav-link text-decoration-none" href="#Variable_scope">Variable scope</a></li>
+        <li class="position-relative w-100"><a class="d-block nav-link text-decoration-none" href="#Global_variables">Global variables</a></li>
+        <li class="position-relative w-100"><a class="d-block nav-link text-decoration-none" href="#Constants">Constants</a></li>
+        <li class="position-relative w-100"><a class="d-block nav-link text-decoration-none" href="#Data_types">Data types</a></li>
+        <li class="position-relative w-100"><a class="d-block nav-link text-decoration-none" href="#if...else_statement">if...else statement</a></li>
+        <li class="position-relative w-100"><a class="d-block nav-link text-decoration-none" href="#while_statement">while statement</a></li>
+        <li class="position-relative w-100"><a class="d-block nav-link text-decoration-none" href="#Function_declarations">Function declarations</a></li>
+        <li class="position-relative w-100"><a class="d-block nav-link text-decoration-none" href="#Reference">Reference</a></li>
       </ul>
     </nav>
     <!-- end of nav and header -->
 
     <div class="scrollToTop center position-fixed rounded-circle">
-      <img src="img/svgs/home-dark.svg" width="32" height="32" id="home-btn" alt="Home button">
+      <img src="img/svgs/home-dark.svg" width="32" height="32" id="home-btn" alt="Home button" loading="lazy">
     </div>
 
     <main id="main-doc">
@@ -214,12 +214,12 @@
               write your first "Hello world" JavaScript code:
             </p>
             <div class="box code-example position-relative">
-              <div class="example-header">
-                <span class="language-name">js</span>
-                <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
+              <div class="example-header d-flex gap-3 m-0">
+                <span class="language-name text-uppercase">js</span>
+                <button type="button" class="icon copy-icon list-inline-item p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
               </div>
-              <pre>
-              <code>
+              <pre class="mb-0">
+              <code class="d-block">
                 <span>function greetMe(yourName) { alert("Hello " + yourName); }</span>
                 <span>greetMe("World");</span>
               </code>
@@ -268,11 +268,11 @@
               For example,
             </p>
             <div class="box code-example position-relative">
-              <div class="example-header">
-                <span class="language-name">js</span>
-                <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
+              <div class="example-header d-flex gap-3 m-0">
+                <span class="language-name text-uppercase">js</span>
+                <button type="button" class="icon copy-icon list-inline-item p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
               </div>
-              <code>
+              <code class="d-block">
                 <span>var x = 42;</span>
               </code>
             </div>
@@ -282,11 +282,11 @@
             </p>
             <p>By simply assigning it a value. For example,</p>
             <div class="box code-example position-relative">
-              <div class="example-header">
-                <span class="language-name">js</span>
-                <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
+              <div class="example-header d-flex gap-3 m-0">
+                <span class="language-name text-uppercase">js</span>
+                <button type="button" class="icon copy-icon list-inline-item p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
               </div>
-              <code>
+              <code class="d-block">
                 <span>x = 42;</span>
               </code>
             </div>
@@ -296,11 +296,11 @@
             </p>
             <p>With the keyword let. For example,</p>
             <div class="box code-example position-relative">
-              <div class="example-header">
-                <span class="language-name">js</span>
-                <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
+              <div class="example-header d-flex gap-3 m-0">
+                <span class="language-name text-uppercase">js</span>
+                <button type="button" class="icon copy-icon list-inline-item p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
               </div>
-              <code>
+              <code class="d-block">
                 <span>let y = 13;</span>
               </code>
             </div>
@@ -329,11 +329,11 @@
               the block, which in this case is an if statement.
             </p>
             <div class="box code-example position-relative">
-              <div class="example-header">
-                <span class="language-name">js</span>
-                <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
+              <div class="example-header d-flex gap-3 m-0">
+                <span class="language-name text-uppercase">js</span>
+                <button type="button" class="icon copy-icon list-inline-item p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
               </div>
-              <code>
+              <code class="d-block">
                 <span>if (true) { var x = 5; } console.log(x); // 5</span>
               </code>
             </div>
@@ -342,11 +342,11 @@
               in ECMAScript 2015.
             </p>
             <div class="box code-example position-relative">
-              <div class="example-header">
-                <span class="language-name">js</span>
-                <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
+              <div class="example-header d-flex gap-3 m-0">
+                <span class="language-name text-uppercase">js</span>
+                <button type="button" class="icon copy-icon list-inline-item p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
               </div>
-              <code>
+              <code class="d-block">
                 <span>if (true) { let y = 5; } console.log(y); // ReferenceError: y
                   is not defined</span>
               </code>
@@ -380,11 +380,11 @@
               and can contain alphabetic, numeric, or underscore characters.
             </p>
             <div class="box code-example position-relative">
-              <div class="example-header">
-                <span class="language-name">js</span>
-                <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
+              <div class="example-header d-flex gap-3 m-0">
+                <span class="language-name text-uppercase">js</span>
+                <button type="button" class="icon copy-icon list-inline-item p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
               </div>
-              <code>
+              <code class="d-block">
                 <span>const PI = 3.14;</span>
               </code>
             </div>
@@ -403,12 +403,12 @@
               variable in the same scope. For example:
             </p>
             <div class="box code-example position-relative">
-              <div class="example-header">
-                <span class="language-name">js</span>
-                <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
+              <div class="example-header d-flex gap-3 m-0">
+                <span class="language-name text-uppercase">js</span>
+                <button type="button" class="icon copy-icon list-inline-item p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
               </div>
-              <pre>
-              <code>
+              <pre class="mb-0">
+              <code class="d-block">
                 <span>// THIS WILL CAUSE AN ERROR function f() {}; const f = 5;</span>
                 <span>// THIS WILL CAUSE AN ERROR ALSO function f() {const g = 5; var g;}</span>
               </code>
@@ -419,12 +419,12 @@
               statement is executed without problems.
             </p>
             <div class="box code-example position-relative">
-              <div class="example-header">
-                <span class="language-name">js</span>
-                <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
+              <div class="example-header d-flex gap-3 m-0">
+                <span class="language-name text-uppercase">js</span>
+                <button type="button" class="icon copy-icon list-inline-item p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
               </div>
-              <pre>
-              <code>
+              <pre class="mb-0">
+              <code class="d-block">
                 <span>const MY_OBJECT = {"key": "value"};</span>
                 <span>MY_OBJECT.key = "otherValue";</span>
               </code>
@@ -479,11 +479,11 @@
               the condition is false. An if statement looks as follows:
             </p>
             <div class="box code-example position-relative">
-              <div class="example-header">
-                <span class="language-name">js</span>
-                <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
+              <div class="example-header d-flex gap-3 m-0">
+                <span class="language-name text-uppercase">js</span>
+                <button type="button" class="icon copy-icon list-inline-item p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
               </div>
-              <code>
+              <code class="d-block">
                 <span
                   >if (condition) { statement_1; } else { statement_2; }</span
                 >
@@ -501,12 +501,12 @@
               multiple conditions tested in sequence, as follows:
             </p>
             <div class="box code-example position-relative">
-              <div class="example-header">
-                <span class="language-name">js</span>
-                <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
+              <div class="example-header d-flex gap-3 m-0">
+                <span class="language-name text-uppercase">js</span>
+                <button type="button" class="icon copy-icon list-inline-item p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
               </div>
-              <pre>
-              <code>
+              <pre class="mb-0">
+              <code class="d-block">
                 <span>if (condition_1) { statement_1;</span>
                 <span>} else if (condition_2) { statement_2;</span>
                 <span>} else if (condition_n) { statement_n;</span>
@@ -522,12 +522,12 @@
               especially when nesting if statements:
             </p>
             <div class="box code-example position-relative">
-              <div class="example-header">
-                <span class="language-name">js</span>
-                <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
+              <div class="example-header d-flex gap-3 m-0">
+                <span class="language-name text-uppercase">js</span>
+                <button type="button" class="icon copy-icon list-inline-item p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
               </div>
-              <pre>
-              <code>
+              <pre class="mb-0">
+              <code class="d-block">
                 <span>if (condition) { statement_1_runs_if_condition_is_true; statement_2_runs_if_condition_is_true;</span>
                 <span>} else { statement_3_runs_if_condition_is_false; statement_4_runs_if_condition_is_false; }</span>
               </code>
@@ -540,11 +540,11 @@
               code:
             </p>
             <div class="box code-example position-relative">
-              <div class="example-header">
-                <span class="language-name">js</span>
-                <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
+              <div class="example-header d-flex gap-3 m-0">
+                <span class="language-name text-uppercase">js</span>
+                <button type="button" class="icon copy-icon list-inline-item p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
               </div>
-              <code>
+              <code class="d-block">
                 <span>if (x = y) { /* statements here */ }</span>
               </code>
             </div>
@@ -554,11 +554,11 @@
               assignment. For example:
             </p>
             <div class="box code-example position-relative">
-              <div class="example-header">
-                <span class="language-name">js</span>
-                <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
+              <div class="example-header d-flex gap-3 m-0">
+                <span class="language-name text-uppercase">js</span>
+                <button type="button" class="icon copy-icon list-inline-item p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
               </div>
-              <code>
+              <code class="d-block">
                 <span>if ((x = y)) { /* statements here */ }</span>
               </code>
             </div>
@@ -572,11 +572,11 @@
               condition evaluates to true. A while statement looks as follows:
             </p>
             <div class="box code-example position-relative">
-              <div class="example-header">
-                <span class="language-name">js</span>
-                <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
+              <div class="example-header d-flex gap-3 m-0">
+                <span class="language-name text-uppercase">js</span>
+                <button type="button" class="icon copy-icon list-inline-item p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
               </div>
-              <code>
+              <code class="d-block">
                 <span>while (condition) statement</span>
               </code>
             </div>
@@ -600,11 +600,11 @@
               The following while loop iterates as long as n is less than three:
             </p>
             <div class="box code-example position-relative">
-              <div class="example-header">
-                <span class="language-name">js</span>
-                <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
+              <div class="example-header d-flex gap-3 m-0">
+                <span class="language-name text-uppercase">js</span>
+                <button type="button" class="icon copy-icon list-inline-item p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
               </div>
-              <code>
+              <code class="d-block">
                 <span
                   >var n = 0; var x = 0; while (n &lt; 3) { n++; x +=n; }</span
                 >
@@ -652,11 +652,11 @@
               square:
             </p>
             <div class="box code-example position-relative">
-              <div class="example-header">
-                <span class="language-name">js</span>
-                <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
+              <div class="example-header d-flex gap-3 m-0">
+                <span class="language-name text-uppercase">js</span>
+                <button type="button" class="icon copy-icon list-inline-item p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
               </div>
-              <code>
+              <code class="d-block">
                 <span>function square(number) { return number * number; }</span>
               </code>
             </div>
@@ -667,11 +667,11 @@
               The return statement specifies the value returned by the function.
             </p>
             <div class="box code-example position-relative">
-              <div class="example-header">
-                <span class="language-name">js</span>
-                <button type="button" class="icon copy-icon" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
+              <div class="example-header d-flex gap-3 m-0">
+                <span class="language-name text-uppercase">js</span>
+                <button type="button" class="icon copy-icon list-inline-item p-0" data-bs-toggle="tooltip" data-bs-placement="top" title="Copy"></button>
               </div>
-              <code>
+              <code class="d-block">
                 <span>return number * number;</span>
               </code>
             </div>
@@ -688,20 +688,20 @@
             <h2>Reference</h2>
             <p>
               All the documentation in this page is taken from
-              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" class="text-decoration-underline" target="_blank" rel="noopener"
+              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" class="text-decoration-none" target="_blank" rel="noopener"
                 >MDN</a>.
             </p>
           </article>
         </div>
         <footer class="center p-3">
           <p class="m-0 p-1">
-            <a href="http://ralitsataylor.github.io/modern-portfolio/" class="text-decoration-underline" target="_blank" rel="noopener">&lt;Ralitsa Taylor/&gt;</a>
+            <a href="http://ralitsataylor.github.io/modern-portfolio/" class="text-decoration-none" target="_blank" rel="noopener">&lt;Ralitsa Taylor/&gt;</a>
               <span class="mt-0">© 2025</span>
           </p>
         </footer>
       </div>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@latest/dist/js/bootstrap.bundle.min.js" defer></script>
     <script src="js/scroll-to-top-min.js" defer></script>
     <script src="js/toggle-theme-min.js" defer></script>
     <script src="js/copy-to-clipboard-min.js" defer></script>
